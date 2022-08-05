@@ -138,6 +138,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   return Math.pow(num, 2)
+  //var potencia = num * num; return potencia
   
 }
 
@@ -159,6 +160,7 @@ function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
   return Math.round(num)
+  // var redondeado = Math.pow(num) return redondeado
 }
 
 function redondearHaciaArriba(num) {
